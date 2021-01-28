@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nhork{
+    width: 100%;
+    height: 100px;
+    background: darkblue;
+}
+h3{
+    color:darkgray;
+    text-align: center;
+    padding: 25px;
+}
+.contain{
+    width: 100%;
+    height: 350px;
+    display:flex;
+}
+.word{
+    background: rgb(94, 187, 224);
+    width: 100%;
+    height: 350px;
+}
+h2{
+    color: rgb(20, 20, 245);
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.photo{
+    width: 30%;
+    height: 350px;
+}
+img {
+    width: 100%;
+    height: 350px;
+}
+.manu{
+    height: 60px;
+    width: 100%;
+    background: rgb(216, 190, 45);
+}
+.a{
+    padding: 17px;
+    text-align: center;
+}
+a{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.aboutme{
+    height: 500px;
+    width: 100%;
+
+}
+.N {
+    width: 100%;
+    height: 600px;
+    background:rgb(189, 119, 236);
+    display: flex;
+}
+.nov{
+    height: 700px;
+    width: 30%;
+    margin-left: 20px;
+}
+.nov img{
+   height: 400px;
+   width: 90%; 
+   margin-left: 22px;
+   margin-top: 100px;
+}
+.H{
+    width: 50%;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 250px;
+}
+.H p{
+    color: #fff;
+    text-align: center;
+}
+h4{
+    margin-left: 60px;
+    color:rgb(20, 245, 208)
+}
+.cv img{
+    width: 100%;
+    height: 700px;
+}
+.you{
+    width: 100%;
+    height: 400px;
+    background:rgb(82, 101, 187);
+    display: flex;
+}
+.T {
+    width: 100%;
+    height: 530px;
+}
+.T img {
+    width: 100%;
+    height: 100%;
+}
+
+.content2{
+    width: 50%;
+    padding: 10px;
+}
+label{
+    color:rgb(20, 20, 245);
+    font-size: 20px;
+}
+form{
+
+    padding: 10px;
+    margin-left: 100px;
+}
+input{
+    margin-top: 10px;
+}
+input[type="email"]{
+    width: 51%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 2px;
+}
+input[type="text"]{
+    width: 48.99%;
+    font-size: 15px;
+    padding: 2px;
+}
+input[type="submit"]{
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background:teal;
+    color: greenyellow;
+}
+input[type="reset"]{
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(146, 122, 146);
+    color: red;
+}
+.div img{
+    width: 100%;
+    height: 70px;
+}
+.T.my{
+    width: 100px;
+    height: 140px;
+    background:rgb(221, 25, 35);
+}
+.myaddress{
+    width: 100%;
+    height: 400px;
+}
+.ma{
+    margin-top: 200px;
+}
+.ma p{
+    text-align: start;
+    margin: 0;
+    font-size: 20px;
+    color:rgb(96, 214, 244);
+}
+
+.exp{
+    width: 100%;
+    height: 800px;
+    background:rgb(94, 122, 163);
+    /* display: flex; */
+}
+.for{
+    display: flex;
+}
+.box{
+    width: 500px;
+    height: 783px;
+    background:rgb(154, 208, 230);
+    margin: 8px;
+}
+.box1 img{
+    height: 250px;
+}
+.box1 p{
+    font-size: 20px;
+}
+.pncs img{
+    height: 700px;
+}
+
+
