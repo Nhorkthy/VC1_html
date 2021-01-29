@@ -241,15 +241,24 @@ input[type="submit"]{
 }
 #download-btn{
     padding: 18px;
-    background: blue;
+    border: 5px solid rgb(42, 199, 204);
+    background: rgb(70, 70, 216);
     color: #fff;
-    border-radius: 30px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+.cv {
+    margin-left: 350px;
+    margin-top: 40px;
+
 }
 
 .htcv{
     width: 98%;
-    height: 700px;
+    height: 600px;
     border: 10px solid black;
+    border-radius: 5px;
+    background: #d3e0ea;
     margin-left: 5px;
 }
 
@@ -282,6 +291,30 @@ input[type="submit"]{
 
 .b2{
     width: 99%;
+    height: 425px;
+    /* background: rgb(0, 0, 0); */
+    margin-left: 6px;
+}
+.b2 {
+    display: flex;
+}
+.line1{
+    width: 500px;
     height: 400px;
-    background: rgb(0, 0, 0);
+
+    margin: 10px;
+}
+.line1 p{
+    color: black;
+    text-align: start;
+    font-size: 17px;
+}
+h5{
+    margin-left: 30%;
+    font-size: 20px;
+    color:rgb(0, 60, 255);
+}
+iframe{
+    height: 100px;
+    width: 200px;
 }
