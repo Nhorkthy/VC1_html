@@ -5,10 +5,10 @@ body{
 .nhork{
     width: 100%;
     height: 100px;
-    background: darkblue;
+    background: #153e90;
 }
 h3{
-    color:darkgray;
+    color:#fff;
     text-align: center;
     padding: 25px;
 }
@@ -16,15 +16,25 @@ h3{
     width: 100%;
     height: 350px;
     display:flex;
+    background: #faf3dd;
+}
+.content2{
+
+    height: 250px;
+    width:100px;
+}
+form{
+    background:rgb(154, 208, 230);
+    width: 200px;
 }
 .word{
-    background: rgb(94, 187, 224);
+    /* background: rgb(94, 187, 224); */
     width: 100%;
     height: 350px;
 }
 h2{
-    color: rgb(20, 20, 245);
-    font-size: 20px;
+    color: #1687a7;
+    font-size: 30px;
     text-align: center;
 }
 p{
@@ -38,11 +48,12 @@ p{
 img {
     width: 100%;
     height: 350px;
+    border-radius: 10px;
 }
 .manu{
     height: 60px;
     width: 100%;
-    background: rgb(216, 190, 45);
+    background: #9ab3f5;
 }
 .a{
     padding: 17px;
@@ -61,7 +72,7 @@ a{
 .N {
     width: 100%;
     height: 600px;
-    background:rgb(189, 119, 236);
+    background:#a2d5f2;
     display: flex;
 }
 .nov{
@@ -85,18 +96,15 @@ a{
     color: #fff;
     text-align: center;
 }
-h4{
-    margin-left: 60px;
-    color:rgb(20, 245, 208)
-}
+
 .cv img{
     width: 100%;
     height: 700px;
 }
 .you{
     width: 100%;
-    height: 400px;
-    background:rgb(82, 101, 187);
+    height: 370px;
+    background:#bbe1fa;
     display: flex;
 }
 .T {
@@ -111,6 +119,26 @@ h4{
 .content2{
     width: 50%;
     padding: 10px;
+    margin-top:70px;
+    
+}
+h4{
+    margin-left: 30px;
+    color:rgb(40, 121, 243)
+}
+.myaddress{
+    width: 100%;
+    height: 400px;
+}
+.ma{
+    margin-top: 160px;
+    margin-left: 40px;
+}
+.ma p{
+    text-align: start;
+    margin: 0;
+    font-size: 20px;
+    color:black;
 }
 label{
     color:rgb(20, 20, 245);
@@ -120,18 +148,20 @@ form{
 
     padding: 10px;
     margin-left: 100px;
+    border-radius: 20px;
+    background:#01a9b4;
 }
 input{
     margin-top: 10px;
 }
 input[type="email"]{
-    width: 51%;
+    width: 97%;
     box-sizing: border-box;
     margin-top: 10px;
     padding: 2px;
 }
 input[type="text"]{
-    width: 48.99%;
+    width: 100;
     font-size: 15px;
     padding: 2px;
 }
@@ -142,17 +172,10 @@ input[type="submit"]{
     border-radius: 20px;
     border: none;
     background:teal;
-    color: greenyellow;
+    color: #fff;
+    margin-left: 50px;
 }
-input[type="reset"]{
-    width: 100px;
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 20px;
-    border: none;
-    background: rgb(146, 122, 146);
-    color: red;
-}
+
 .div img{
     width: 100%;
     height: 70px;
@@ -162,25 +185,11 @@ input[type="reset"]{
     height: 140px;
     background:rgb(221, 25, 35);
 }
-.myaddress{
-    width: 100%;
-    height: 400px;
-}
-.ma{
-    margin-top: 200px;
-}
-.ma p{
-    text-align: start;
-    margin: 0;
-    font-size: 20px;
-    color:rgb(96, 214, 244);
-}
 
 .exp{
     width: 100%;
     height: 800px;
     background:rgb(94, 122, 163);
-    /* display: flex; */
 }
 .for{
     display: flex;
@@ -201,4 +210,78 @@ input[type="reset"]{
     height: 700px;
 }
 
+.abt{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: #d2ebe9;
+}
+.abt .about{
+    width: 30%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.about img{
+    margin-top: 30px;
+}
+.abt .pt{
+    width: 90%;
+    height: 400px;
+    /* background: #487e95; */
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.pt p{
+    margin-top: 100px;
+    width: 80%;
+}
+.pt {
+    margin-left: 40%;
+}
+#download-btn{
+    padding: 18px;
+    background: blue;
+    color: #fff;
+    border-radius: 30px;
+}
 
+.htcv{
+    width: 98%;
+    height: 700px;
+    border: 10px solid black;
+    margin-left: 5px;
+}
+
+.b1{
+    width: 98%;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 13px;
+    display: flex;
+}
+.k1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-left: 500px;
+}
+.k2 p{
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.line{
+    height: 3px;
+    width: 95%;
+    background: #eb5e0b;
+    margin-left: 40px;
+}
+
+.b2{
+    width: 99%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+}
